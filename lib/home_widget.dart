@@ -33,7 +33,11 @@ class _HomeState extends State<Home> {
           ),
           new BottomNavigationBarItem(
             icon: Icon(Icons.calendar_today),
+<<<<<<< HEAD
             title: Text('Auspicious Days'),
+=======
+            title: Text('Dates'),
+>>>>>>> ff816e14725f2ed6d1bb0060dddd5f5a87691d3a
           ),
           new BottomNavigationBarItem(
               icon: Icon(Icons.star),
