@@ -31,12 +31,12 @@ class _HomeState extends State<Home> {
             title: Text('Home'),
           ),
           new BottomNavigationBarItem(
-            icon: Icon(Icons.mail),
-            title: Text('Messages'),
+            icon: Icon(Icons.calendar_today),
+            title: Text('Dates'),
           ),
           new BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              title: Text('Profile')
+              icon: Icon(Icons.star),
+              title: Text('Horoscope')
           )
         ],
       ),
