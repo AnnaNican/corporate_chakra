@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'placeholder_widget.dart';
+import 'horoscope.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _HomeState extends State<Home> {
   final List<Widget> _children = [
     PlaceholderWidget(Colors.white),
     PlaceholderWidget(Colors.deepOrange),
-    PlaceholderWidget(Colors.green)
+    HoroscopePage(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -31,12 +32,12 @@ class _HomeState extends State<Home> {
             title: Text('Home'),
           ),
           new BottomNavigationBarItem(
-            icon: Icon(Icons.mail),
-            title: Text('Messages'),
+            icon: Icon(Icons.calendar_today),
+            title: Text('Auspicious Days'),
           ),
           new BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              title: Text('Profile')
+              icon: Icon(Icons.star),
+              title: Text('Horoscope')
           )
         ],
       ),
