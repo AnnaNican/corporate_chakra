@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     PlaceholderWidget(Colors.white),
-    DatesWidget(Colors.deepOrange),
+    DatesWidget(Colors.blue),
     HoroscopePage(),
   ];
   @override
