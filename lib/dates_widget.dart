@@ -60,6 +60,7 @@ class DatesWidget extends StatelessWidget {
         primary: true,
         padding: const EdgeInsets.all(4.0),
         children: <Widget>[
+          Padding(padding: EdgeInsets.all(50),),
           DateCardWidget('Pursue Venture Financing', 'Why be risky with your money? Use someone else\'s.', Icons.euro_symbol, 'January 1, 2020', 'It\'s the start of new year. Start a new page in your company\'s ledger by pursuing venture financing. It\'s like taking money from your parents and having them encourage your wreckless behaviour.'),
           DateCardWidget('Launch Crowdfunding Campaign', 'There is nothing as good as selling things that do not yet exist.', Icons.favorite, 'January 13, 2020', 'Launch your next product to stellar heights by starting with a crowd-funding campaign. Why spend all the time developing an actual product when you could just create a 2-minute video instead. Be sure to groom your social media accounts.'),
           DateCardWidget('Rekindle Your Inner Fire', 'An inner fire is better than a forest fire.', Icons.whatshot, 'February 14, 2020', 'Just because you stopped paying for heat does not mean that you need to be cold. Take a day to rekindle your inner passion for work! Toil with the passion of a thousand stallions and the heat of a million suns. Your employees will stop complaining that their 2nd pair of gloves makes it hard to type.'),

@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 class HoroscopePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         body: Container(
           margin: EdgeInsets.symmetric(vertical: 0.0),
           child: ListView(
@@ -253,8 +252,7 @@ class HoroscopePage extends StatelessWidget {
               ),
             ],
           ),
-        ),
-      ),
+        )
     );
   }
 }

@@ -13,7 +13,34 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
-    PlaceholderWidget(Colors.white),
+    Container(
+        color: Colors.white,
+      child:Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          // Title
+          Text("Corporate Charka",
+            textAlign: TextAlign.justify,
+            style: TextStyle(
+              color: Colors.grey[800],
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+            ),
+          ),
+          // Subtitle
+          Text("The mobile app for auspicious busness strategies.",
+            style: TextStyle(
+              fontWeight: FontWeight.w200,
+              fontStyle: FontStyle.italic
+            )
+          ),
+          // Logo Image
+          Image.asset('assets/logo.png'),
+        ],
+      )
+    ),
     DatesWidget(Colors.white),
     HoroscopePage(),
   ];
