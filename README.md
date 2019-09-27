@@ -1,16 +1,14 @@
-# corporate_chakra
+# Corporate Chakra
 
-A wonderful Flutter application.
+the app for auspicious business strategies
 
-## Getting Started
+### Description:
 
-This project is a starting point for a Flutter application.
+Over dinner the conversation with friends heated up around the volume of jargon we use in industries like digital design, consulting, software development and generally corporate world. So we decided to mix the typical buzzwords with another human obsession -astrology, to  create “Corporate Chakra”. The irony is that we were fluent in “consult-ese” and “startup-ese" ...
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Build with [Flutter](http://flutterawesome.com/)
+
+
+
