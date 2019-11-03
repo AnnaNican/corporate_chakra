@@ -4,7 +4,7 @@ the app for auspicious business strategies
 
 
 
-![IMG_8672](/Users/anna.nicanorova/Dropbox/Projects/corporate_chakra/assets/IMG_8672.PNG)
+![IMG_8672](/assets/IMG_8672.PNG)
 
 ### Description:
 
